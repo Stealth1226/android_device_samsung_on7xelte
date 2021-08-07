@@ -79,17 +79,17 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/camera/external_camera_config.xml:system/vendor/etc/external_camera_config.xml
 
 # Charger (Offline)
-PRODUCT_PACKAGES += \
-    charger_res_images \
-    lineage_charger_res_images
+#PRODUCT_PACKAGES += \
+#    charger_res_images \
+#    lineage_charger_res_images
 
 # Configstore
 PRODUCT_PACKAGES += \
     android.hardware.configstore@1.1-service
 
 # DevOtag
-PRODUCT_PACKAGES += \
-    DevOtag
+#PRODUCT_PACKAGES += \
+#    DevOtag
 
 # Disable trace
 PRODUCT_PROPERTY_OVERRIDES += \

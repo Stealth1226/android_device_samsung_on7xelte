@@ -185,8 +185,6 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 -
 BOARD_KERNEL_SEPARATED_DT := true
 TARGET_CUSTOM_DTBTOOL := dtbhtoolExynos
 
-# Lineage HW
-JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|device/samsung/on7xelte/lineagehw|**/*.java
 
 # Manifest
 PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
